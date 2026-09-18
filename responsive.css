@@ -1,0 +1,6 @@
+@media (max-width: 900px) {
+  .appointment,
+  .programme { grid-template-columns: 1fr; gap: 12px; }
+  .live-map { grid-template-columns: 1fr; }
+  .live-map > div { min-height: 150px; }
+}
